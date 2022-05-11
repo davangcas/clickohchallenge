@@ -12,18 +12,7 @@ Need postgresql installed and config in settings database credentials
 
 ```python3 -m venv venv```
 
-- Export enviroment vars to run the project
-
-```
-
-    #!/bin/bash
-
-    source venv/bin/activate
-
-    export DEBUG=True
-
-
-```
+- Activate enviroment and set DEBUG = True in settings
 
 - Install requiremets
 
