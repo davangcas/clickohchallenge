@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-*b^+ea*i4h_aje!jo#7e$(a3^x8s1e2-gi@1=1-aiy5pp0x7i$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['clickohchallenge.herokuapp.com']
 
 
 # Application definition
